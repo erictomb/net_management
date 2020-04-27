@@ -1,5 +1,5 @@
 # This script connects to Solarwinds API using orionsdk and queries for devices matching category *AN (WAN, MAN or LAN) and
-# returns the results alphabetically by SysName
+# returns the results alphabetically by SysName.  The output is useful for building an Ansible inventory.
 
 import getpass
 import requests
